@@ -56,7 +56,7 @@ This weekend: the 3 ways to ask a yes/no question, numbers 0–100, saying "not"
 
 > **RULE** **Exception: être.** With être (c'est, ce sont, il est...), un / une / des **do not change**: C'est un stylo → Ce n'est pas **un** stylo. Ce sont des livres → Ce ne sont pas **des** livres.
 
-> **WATCH OUT** The "pas de" rule applies to the **direct object** (the thing you have, buy, eat). After a preposition like **avec**, standard French keeps the article: Il ne parle pas **avec un** ami / **avec des** amis. (Our class notes write "avec d'ami": worth checking with the teacher.)
+> **WATCH OUT** The "pas de" rule applies to the **direct object** (the thing you have, buy, eat). After a preposition like **avec**, standard French keeps the article: Il ne parle pas **avec un** ami / **avec des** amis.
 
 > **WATCH OUT** ami = male friend, amie = female friend, amis = friends (men or mixed), amies = friends (all women). All sound the same.
 
@@ -79,16 +79,16 @@ This weekend: the 3 ways to ask a yes/no question, numbers 0–100, saying "not"
 | 99th | quatre-vingt-dix-neuvième |
 | 100th | centième |
 
-## Fixes to the class notes
+## Keep in mind
 
-- Habite-Ravi à Hyd ? → **Ravi habite-t-il** à Hyderabad ?
-- Est-Nicolas indien ? → **Nicolas est-il** indien ?
-- Sont-Ravi et Nicolas tes amis ? → **Ravi et Nicolas sont-ils** tes amis ?
-- Adore-elle chanter ? → **Adore-t-elle** chanter des **chansons** ?
-- Tu et Ravi parlez français → **Toi et Ravi, vous** parlez français.
-- le petit dejourner → **le petit-déjeuner**; à la temple → **au** temple (le temple).
-- Je peau manger → **Je peux** manger; Tu vois acheter → **Tu veux** acheter.
-- Il n'est pas d'homme → Il n'est pas **un** homme (être keeps the article).
+Easy slips to avoid:
+
+- With a name, keep the name first: **Ravi habite-t-il** à Hyderabad ? **Nicolas est-il** indien ? **Ravi et Nicolas sont-ils** tes amis ?
+- Add -t- between two vowels: **Adore-t-elle** chanter des **chansons** ?
+- "You and Ravi": **Toi et Ravi, vous** parlez français.
+- Breakfast = **le petit-déjeuner**; temple is masculine: **au** temple.
+- pouvoir and vouloir: **je peux** manger, **tu veux** acheter.
+- être keeps the article in the negative: Il n'est pas **un** homme.
 
 ## Practice
 

@@ -132,23 +132,25 @@ Same pattern: défendre (defend), descendre (go down), entendre (hear), étendre
 
 > **RULE** Two more spelling-change -ER verbs (the "boot" from Week 3): **jeter** doubles the t (je je**tt**e, ils je**tt**ent / nous jetons), and **préférer** changes é to è (je préf**è**re, ils préf**è**rent / nous préférons).
 
-## Fixes to the class notes
+## Keep in mind
 
-- Qui fit ça ? → Qui **fait** ça ? (fit is a past tense).
-- l'année prochain → l'année **prochaine**; Quand l'examine est ? → Quand **est l'examen** ?
-- Coûte-ça combien ? is not used. Say **Combien ça coûte ?** or **Ça coûte combien ?**
-- T'appelles-tu comment ? → **Comment t'appelles-tu ?**
-- Comment vous allez ? means **How are you?** To ask how someone travels: **Comment vous venez ?**
-- Lequel livre je dois lire ? → **Quel** livre je dois lire ? or **Lequel** je dois lire ? (lequel replaces the noun).
-- Qu'est-ce que tu études ? → Qu'est-ce que tu **étudies** ? Qu'est-ce que tu parles ? → **Quelle langue** tu parles ?
-- À quelle heure tu dormes ? → tu **dors** (dormir, Week 6).
-- Quel est ta préférence ? → **Quelle** est ta préférence ? (préférence is feminine). Quelles sont tes goutes → tes **goûts**. Quel jouer → Quel **jeu**.
-- Si, je parle anglais = Yes, I **do** speak English.
-- Je ne peux pas manger des bonbons → Je ne peux pas manger **de** bonbons.
-- Parce que, je voudrais d'être calme → Parce que je voudrais **être** calme (no comma, no de). augmenter mon langue français → **améliorer mon français**.
-- Ils aiment jouer le cricket → jouer **au** cricket. J'aime aller mon village → aller **dans** mon village.
-- Comment vous cousinez → **cuisinez**; Qui est votre meusien → **musicien**; Combien de launges → **langues**.
-- jeter is not irregular: it is a spelling-change -ER verb (like appeler).
+Easy slips to avoid:
+
+- **Qui fait ça ?** (fait = does; fit is a past tense).
+- **l'année prochaine** (année is feminine); **Quand est l'examen ?**
+- Prices: **Combien ça coûte ?** or **Ça coûte combien ?**
+- Inversion keeps the question word first: **Comment t'appelles-tu ?**
+- **Comment vous allez ?** = How are you? To ask how someone travels: **Comment vous venez ?**
+- lequel replaces the noun: **Quel** livre je dois lire ? → **Lequel** je dois lire ?
+- **Qu'est-ce que tu étudies ?** For languages: **Quelle langue** tu parles ?
+- dormir: À quelle heure tu **dors** ?
+- préférence is feminine: **Quelle** est ta préférence ? Also: tes **goûts**, quel **jeu**.
+- **Si, je parle anglais** = Yes, I DO speak English.
+- Two verbs + negative: Je ne peux pas manger **de** bonbons.
+- Parce que je voudrais **être** calme (no comma, no de). To improve your French: **améliorer mon français**.
+- Sports and places: jouer **au** cricket, aller **dans** mon village.
+- Spelling check: cuisinez, musicien, langues.
+- **jeter** is a spelling-change -ER verb (like appeler), not an irregular one.
 
 ## Practice
 

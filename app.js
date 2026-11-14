@@ -173,8 +173,10 @@
     const firstP = note.querySelector("h1 + p");
     if (firstP) firstP.classList.add("lead");
     note.querySelectorAll("h2").forEach((h) => {
-      if (/^fixes/i.test(h.textContent) && h.nextElementSibling && h.nextElementSibling.tagName === "UL") {
-        h.nextElementSibling.classList.add("fixes");
+      if (/^(fixes|keep in mind)/i.test(h.textContent) && h.nextElementSibling) {
+        let el = h.nextElementSibling;
+        while (el && el.tagName !== "UL" && el.tagName !== "H2") el = el.nextElementSibling;
+        if (el && el.tagName === "UL") el.classList.add("fixes");
       }
     });
     $("practise-week").addEventListener("click", () => {

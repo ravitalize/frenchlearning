@@ -90,18 +90,20 @@ Other finir-group verbs: agir, bâtir, grossir, maigrir, obéir, punir, réfléc
 
 > **WATCH OUT** No contraction before mon, ma, mes or a name: Je parle **à mes** parents. C'est le stylo **de** Raju.
 
-## Fixes to the class notes
+## Keep in mind
 
-- Il est un électricien → **Il est électricien** / **C'est un électricien**.
-- Il est nouveau étudiant → **C'est un nouvel étudiant** (nouvel before a vowel).
-- Ravi habite d'Amaravathi → Ravi habite **à** Amaravathi (habiter à = live in).
-- Tu parles aux mes parents → Tu parles **à mes** parents.
-- Il regarde à l'homme → **Il regarde l'homme** (regarder takes no à).
-- Il va au roi → Il va **chez le** roi (chez = to someone's place).
-- Je visite aux villes → **Je visite les villes**; J'habite aux villes → **J'habite en ville**.
-- Ils ne viennent pas de le bibliothèque → **de la** bibliothèque.
-- Je viens de la ville = I come from **the city** (not France).
-- Il vient du Morocco → Il vient **du Maroc**; des Centre Commercials → **des centres commerciaux**.
+Easy slips to avoid:
+
+- Jobs after il est take no article: **Il est électricien** / **C'est un électricien**.
+- **nouveau → nouvel** before a vowel: C'est un **nouvel** étudiant.
+- **habiter à** = live in: Ravi habite **à** Amaravathi.
+- No contraction before mes: tu parles **à mes** parents.
+- **regarder** takes no à: **il regarde l'homme**.
+- Going to someone's place = **chez**: il va **chez le** roi.
+- Visiting cities: **je visite les villes**; living in town: **j'habite en ville**.
+- bibliothèque is feminine: **de la** bibliothèque.
+- **de la ville** = from the city.
+- le Maroc → il vient **du Maroc**; plural: **des centres commerciaux**.
 
 ## Practice
 

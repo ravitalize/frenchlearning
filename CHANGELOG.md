@@ -3,6 +3,12 @@
 All notable changes to the notes and the website. Newest first.
 Versions follow `MAJOR.MINOR.PATCH`: a new feature or page bumps MINOR, fixes and small content corrections bump PATCH, and a new week of notes is listed under the release that adds it.
 
+## [1.4.1] - 2026-11-14
+
+### Changed
+- Weekly notes: the "Fixes to the class notes" section is now **Keep in mind**, rewritten as a friendly list of easy slips to avoid, with the correct form first.
+- Homepage and footer now say the site is made from my weekend class notes.
+
 ## [1.4.0] - 2026-11-14
 
 ### Added
@@ -74,7 +80,8 @@ Versions follow `MAJOR.MINOR.PATCH`: a new feature or page bumps MINOR, fixes an
 - `build.py` to bundle the notes into `data/notes.js`.
 - README with instructions for adding a new week.
 
-[1.4.0]: https://github.com/ravitalize/frenchlearning/compare/6f359bc...main
+[1.4.1]: https://github.com/ravitalize/frenchlearning/compare/9796ae9...main
+[1.4.0]: https://github.com/ravitalize/frenchlearning/compare/6f359bc...9796ae9
 [1.3.0]: https://github.com/ravitalize/frenchlearning/compare/e259d11...6f359bc
 [1.2.0]: https://github.com/ravitalize/frenchlearning/compare/9e6d33a...facedde
 [1.1.0]: https://github.com/ravitalize/frenchlearning/compare/b7dada3...9e6d33a

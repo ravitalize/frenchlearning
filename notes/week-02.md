@@ -89,17 +89,19 @@ This weekend we built our first real sentences: subject + verb + object, with ê
 
 > **RULE** **C'est** (this is / that is / it is) goes before: (1) a name: C'est Ravi. (2) un / une + noun: C'est un stylo. (3) a stressed pronoun: C'est moi. Plural: **Ce sont** des livres.
 
-## Fixes to the class notes
+## Keep in mind
 
-- J'etude → **J'étudie** (verb étudier).
-- J'ordre quelque chose → **Je commande** quelque chose.
-- J'identifie quelque chose = I **identify** something (find = trouver).
-- Je commence ma voiture → **Je démarre** ma voiture (commencer = to begin a task).
-- Tu joues le cricket → Tu joues **au** cricket.
-- Vous écoutez à moi → **Vous m'écoutez** (écouter takes no à).
-- Nous contactons avec vous → **Nous vous contactons**.
-- Nous nous appelons indiens → **Nous sommes indiens** (s'appeler is only for names).
-- Ils habitant → Ils **habitent**.
+Easy slips to avoid:
+
+- **étudier** → j'**étudie** (keep the i).
+- To order something: **je commande** (not "j'ordre").
+- **identifier** = to identify; to find = **trouver**.
+- Starting a car: **je démarre** ma voiture. **commencer** is for starting a task.
+- Sports take **au**: tu joues **au** cricket, **au** foot.
+- **écouter** takes no à: vous **m'écoutez**, j'écoute la radio.
+- Contacting someone: **nous vous contactons** (no avec).
+- **s'appeler** is only for names. For nationality, use être: **nous sommes indiens**.
+- ils **habitent** (verb) vs habitant (an inhabitant).
 
 ## Practice
 

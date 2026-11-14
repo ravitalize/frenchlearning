@@ -94,15 +94,17 @@ This weekend added "the" (le, la, l', les), "there is" (il y a), colour and nati
 
 > **RULE** savoir = know a fact or how to do something: Je sais quelque chose. Je sais nager.
 
-## Fixes to the class notes
+## Keep in mind
 
-- Il n'y a pas de quelqu'un → **Il n'y a personne** (dans la classe).
-- N'y a-t-il pas de stylos ? = **Aren't there any** pens?
-- Il y a l'arbre verte → l'arbre **vert** (arbre is masculine).
-- C'est les ordinateurs HP → **Ce sont** les ordinateurs HP.
-- Il est palestino / palestienne → il est **palestinien**, elle est **palestinienne**.
-- Il a une voiture ? Oui, j'ai... → Oui, **il a** une voiture.
-- Je regarde pour un ami → **Je cherche** un ami (look for = chercher).
+Easy slips to avoid:
+
+- "There is nobody" = **Il n'y a personne** (not "pas de quelqu'un").
+- **N'y a-t-il pas de stylos ?** = Aren't there any pens?
+- arbre is masculine: l'arbre **vert**.
+- Plural with c'est → **Ce sont** les ordinateurs HP.
+- palestinien / palestinienne follow the -ien → -ienne pattern.
+- Answer with the right person: Il a une voiture ? → Oui, **il a** une voiture.
+- To look for = **chercher**: je cherche un ami.
 
 ## Practice
 

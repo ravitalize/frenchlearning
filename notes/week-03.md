@@ -76,13 +76,15 @@ Daily-routine verbs: se réveiller (wake up), se lever (get up: je me lève), se
 
 > **WATCH OUT** Ravi et Rani sont anglais / grands: a mixed group takes the masculine plural.
 
-## Fixes to the class notes
+## Keep in mind
 
-- Tu chates → Tu **chantes**.
-- il paie or il paye: both correct.
-- J'appelle à Jyothy → **J'appelle Jyothy** (appeler takes no à).
-- S'embrasser is used for two or more people: nous nous embrassons (we kiss each other).
-- Grand = **tall** or big. Elle est grande = She is tall.
+Easy slips to avoid:
+
+- Spelling check: tu **chantes** (with the n).
+- il **paie** and il **paye** are both correct.
+- **appeler** takes no à: **j'appelle Jyothy**.
+- **s'embrasser** is used for two or more people: nous nous embrassons (we kiss each other).
+- **grand** = tall or big: elle est **grande** = she is tall.
 
 ## Practice
 

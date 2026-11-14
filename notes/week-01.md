@@ -81,15 +81,17 @@ Vowels in French: a, e, i, o, u, y. A silent **h** behaves like a vowel (j'habit
 
 > **WATCH OUT** One boy in a group of girls makes the whole group **ils**.
 
-## Fixes to the class notes
+## Keep in mind
 
-- "Les moins de l'année" → **Les mois de l'année** (moins = less).
-- L'après-midi = **the afternoon**, not "the noon".
-- é sounds like "ay" (écouter = ay-koo-tay), not "ee".
-- mangé = **eaten** (past participle), not "ate".
-- Bienvenu → **Bienvenue !** when you welcome someone.
-- Une âme = a **soul**; un état = a **state**; le vêtement = a **piece of clothing**.
-- Hôpital always has the ô: **hôpital**.
+Easy slips to avoid:
+
+- **mois** = month, **moins** = less: les **mois** de l'année.
+- **l'après-midi** = the afternoon (midi alone = noon).
+- **é** sounds like "ay" (écouter = ay-koo-tay), never "ee".
+- **mangé** = eaten (past participle), not "ate".
+- Welcoming someone? Say **Bienvenue !** (with the final e).
+- False friends: une **âme** = a soul, un **état** = a state, un **vêtement** = a piece of clothing.
+- **hôpital** always keeps its ô (the lost s from hospital).
 
 ## Practice
 
