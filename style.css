@@ -180,6 +180,8 @@ textarea:focus, input[type=text]:focus { outline: none; border-color: var(--blue
   #view-notes.active { grid-template-columns: 1fr; gap: 12px; }
   .weeklist { position: static; flex-direction: row; overflow-x: auto; padding-bottom: 4px; }
   .weekbtn { flex: 0 0 auto; }
+  .tabs { width: 100%; justify-content: space-between; }
+  .tabs button { padding: 7px 10px; font-size: 14px; white-space: nowrap; }
   .weekbtn .tp { display: none; }
   .paper { padding: 20px 16px 28px 30px; background-image:
     linear-gradient(90deg, transparent 18px, var(--margin) 18px, var(--margin) 19px, transparent 19px),
@@ -194,3 +196,37 @@ textarea:focus, input[type=text]:focus { outline: none; border-color: var(--blue
   #view-notes.active { display: block; }
   .paper { box-shadow: none; background-image: none; padding: 0; }
 }
+
+/* Conjugations page */
+.conj-tools { display: grid; gap: 10px; margin: 14px 0; }
+.seg { display: flex; flex-wrap: wrap; gap: 6px; }
+.seg button { border: 1px solid #ccd5e4; background: #fff; border-radius: 999px; padding: 6px 14px; font: 600 14px var(--sans); color: var(--ink); cursor: pointer; }
+.seg button.on { background: var(--blue); border-color: var(--blue); color: #fff; }
+.pron-pick { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; padding: 10px 12px; background: #fff; border: 1.5px dashed #b9c8e6; border-radius: 12px; }
+.pron-pick .label { font-weight: 700; }
+#conj-lang button { font-family: var(--sans), "Noto Sans Devanagari", "Noto Sans Telugu", sans-serif; }
+.legend { background: #fff; border: 1px solid #dbe2ee; border-radius: 12px; padding: 12px 16px; margin: 12px 0; }
+.legend summary { cursor: pointer; }
+.legend summary h3 { display: inline; }
+.legend h3 { margin: 0 0 4px; font-size: 17px; font-family: var(--sans), "Noto Sans Devanagari", "Noto Sans Telugu", sans-serif; }
+.legend ul { padding-left: 0; list-style: none; margin: 8px 0; }
+.legend li { margin: 6px 0; }
+.legend .sym { display: inline-block; min-width: 72px; margin-right: 6px; text-align: center; }
+.conj-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 14px; }
+.vcard { background: #fff; border: 1px solid #dfe5ef; border-radius: 12px; padding: 12px 14px; }
+.vcard header { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+.vcard h3 { margin: 0; font-family: var(--hand); font-size: 30px; color: var(--blue); line-height: 1.1; }
+.vcard .en { color: var(--ink-soft); font-size: 14px; }
+.vcard .tags { margin: 4px 0 6px; display: flex; gap: 6px; flex-wrap: wrap; }
+.badge { font-size: 12px; padding: 1px 8px; border-radius: 999px; background: #eef1f6; color: var(--ink-soft); }
+.badge.g-irregular { background: #fde8e4; color: #9c3420; }
+.badge.g-reflexive { background: #efe9fd; color: #5a3fb0; }
+.badge.g-er-spelling { background: #fff1cc; color: #7a5a00; }
+.badge.list { background: transparent; border: 1px dashed #cfd7e5; }
+.vcard table { font-size: 15px; }
+.vcard td { padding: 5px 8px; }
+.vcard td.fr { font-weight: 600; white-space: nowrap; }
+.inf-pron { margin: 2px 0 0; }
+.pron { font-size: 16px; color: #24427f; }
+.pron-hi, .pron-te { font-family: "Noto Sans Devanagari", "Noto Sans Telugu", "Nirmala UI", "Kohinoor Devanagari", "Kohinoor Telugu", sans-serif; font-size: 17px; }
+.sp { background: #fff1b8; border-bottom: 2px solid #e6c84f; border-radius: 3px; padding: 0 1px; cursor: help; }

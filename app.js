@@ -334,5 +334,5 @@
   showQuizHistory();
   openWeek(store.get("lastWeek", WEEKS.length ? WEEKS[WEEKS.length - 1].id : 0));
   const start = location.hash.replace("#", "");
-  if (["notes", "quiz", "verbs"].includes(start)) show(start);
+  if (["notes", "quiz", "verbs", "conj"].includes(start)) show(start);
 })();

@@ -7,7 +7,7 @@
   <meta name="description" content="Weekly French class notes (A1–A2) with rules, examples, quizzes and a conjugation drill.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Nunito:wght@400;600;700&family=Noto+Sans+Devanagari:wght@400;600&family=Noto+Sans+Telugu:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -23,6 +23,7 @@
       <button role="tab" data-view="notes" class="active">Notes</button>
       <button role="tab" data-view="quiz">Quiz</button>
       <button role="tab" data-view="verbs">Verb drill</button>
+      <button role="tab" data-view="conj">Conjugations</button>
     </nav>
   </header>
 
@@ -100,6 +101,21 @@
         </details>
       </div>
     </section>
+    <!-- CONJUGATIONS -->
+    <section id="view-conj" class="view">
+      <div class="paper">
+        <h2>Conjugations</h2>
+        <p>Every verb from class with all its present-tense forms. Turn on <b>pronunciation help</b> to see how each form sounds, written in English, Hindi or Telugu letters.</p>
+        <div class="conj-tools">
+          <input id="conj-search" type="text" placeholder="Search a verb, a form or a meaning…" autocomplete="off" autocapitalize="off" spellcheck="false">
+          <div class="seg" id="conj-filters" aria-label="Verb group"></div>
+          <div class="pron-pick"><span class="label">Pronunciation help</span><div class="seg" id="conj-lang" aria-label="Pronunciation language"></div></div>
+        </div>
+        <div id="conj-legend"></div>
+        <p class="muted" id="conj-count"></p>
+        <div class="conj-grid" id="conj-grid"></div>
+      </div>
+    </section>
   </main>
 
   <footer class="foot">
@@ -108,6 +124,9 @@
 
   <script src="data/notes.js"></script>
   <script src="data/verbs.js"></script>
+  <script src="data/verbs-regular.js"></script>
+  <script src="phonetics.js"></script>
   <script src="app.js"></script>
+  <script src="conj.js"></script>
 </body>
 </html>
