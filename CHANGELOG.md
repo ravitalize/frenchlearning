@@ -3,6 +3,20 @@
 All notable changes to the notes and the website. Newest first.
 Versions follow `MAJOR.MINOR.PATCH`: a new feature or page bumps MINOR, fixes and small content corrections bump PATCH, and a new week of notes is listed under the release that adds it.
 
+## [1.3.0] - 2026-11-14
+
+### Added
+- **Homepage**: the site's main link now opens a landing page instead of the Notes tab.
+  - Hero line: "French wasn't designed by a linguist. It was designed by an artist."
+  - Live counts of weeks, quiz questions, verbs and cheatsheets.
+  - "Par où veux-tu commencer ? / Where do you want to start?" with a card for each tab.
+  - "Le saviez-vous ?" fun facts about French, with a button for another one.
+  - A "Contact me on LinkedIn" button.
+- **Home** tab in the menu; clicking the site title also goes home.
+
+### Fixed
+- The cheatsheet count is now available to the rest of the site (scripts load in the right order).
+
 ## [1.2.0] - 2026-11-14
 
 ### Added
@@ -45,6 +59,7 @@ Versions follow `MAJOR.MINOR.PATCH`: a new feature or page bumps MINOR, fixes an
 - `build.py` to bundle the notes into `data/notes.js`.
 - README with instructions for adding a new week.
 
+[1.3.0]: https://github.com/ravitalize/frenchlearning/compare/e259d11...main
 [1.2.0]: https://github.com/ravitalize/frenchlearning/compare/9e6d33a...facedde
 [1.1.0]: https://github.com/ravitalize/frenchlearning/compare/b7dada3...9e6d33a
 [1.0.0]: https://github.com/ravitalize/frenchlearning/commit/b7dada3

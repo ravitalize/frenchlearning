@@ -103,10 +103,46 @@
     if (view === "verbs" && !drill.current) nextVerb();
     window.scrollTo({ top: 0 });
   }
-  document.querySelectorAll(".tabs button").forEach((b) => b.addEventListener("click", () => {
-    show(b.dataset.view);
-    history.replaceState(null, "", "#" + b.dataset.view);
-  }));
+  function go(view) {
+    show(view);
+    history.replaceState(null, "", view === "home" ? location.pathname : "#" + view);
+  }
+  document.querySelectorAll(".tabs button").forEach((b) => b.addEventListener("click", () => go(b.dataset.view)));
+  document.querySelectorAll("[data-go]").forEach((el) => el.addEventListener("click", (e) => { e.preventDefault(); go(el.dataset.go); }));
+
+  /* ---------- home ---------- */
+  const SECTIONS = [
+    { view: "notes", icon: "📒", title: "Notes", fr: "Les notes", text: "Each weekend's class, cleaned up: rules, examples, traps." },
+    { view: "quiz", icon: "✍️", title: "Quiz", fr: "Le quiz", text: "Practice questions from class. Missed ones come back for revenge." },
+    { view: "verbs", icon: "🎯", title: "Verb drill", fr: "L'entraînement", text: "Type the right form. Build a streak. Fight the accents." },
+    { view: "conj", icon: "📚", title: "Conjugations", fr: "Les conjugaisons", text: "Every verb, every form, with pronunciation in English, हिंदी or తెలుగు." },
+    { view: "sheets", icon: "🗂️", title: "Cheatsheets", fr: "Les antisèches", text: "One-page summaries to print and stick next to your bed." }
+  ];
+  const FACTS = [
+    "80 in French is <b>quatre-vingts</b>: \"four twenties\". And 99 is <b>quatre-vingt-dix-neuf</b>: 4 × 20 + 10 + 9. Maths class, but in French.",
+    "<b>oiseau</b> (bird) contains all five vowels a, e, i, o, u, and pronounces none of them the way they're written: <i>wa-zo</i>.",
+    "In <b>ils parlent</b>, the last three letters are pure decoration. You write them, you never say them.",
+    "<b>Qu'est-ce que c'est ?</b> means \"What is it?\" but literally says \"What is it that it is?\" Artists like extra words.",
+    "The letter <b>ù</b> is used in exactly one French word: <b>où</b> (where). Its whole job is to not be ou (or).",
+    "Hindi and Telugu speakers have a head start: nasal vowels like the one in <b>माँ</b> are everywhere in French (<b>bon, vin, enfant</b>).",
+    "The French r lives in the throat. If you know the Urdu <b>ग़</b> in ग़ज़ल, you're already halfway there.",
+    "<b>Il y a</b> (there is) literally means \"it there has\". Don't think about it too much. Just say it.",
+    "<b>vous avez</b> becomes <i>voo-za-vay</i>: the silent s wakes up only when the next word starts with a vowel. That's liaison.",
+    "Nationalities and days of the week are lowercase in French: <b>il est indien, samedi</b>. Countries keep their capitals: <b>l'Inde</b>."
+  ];
+  function renderHome() {
+    const q = WEEKS.reduce((n, w) => n + w.questions.length, 0);
+    const nVerbs = VERBS.length + ((window.REGULAR_VERBS || {}).er || []).length + ((window.REGULAR_VERBS || {}).ir || []).length;
+    const stats = [[WEEKS.length, "weeks of notes"], [q, "quiz questions"], [nVerbs, "verbs"], [(window.CHEATSHEETS || []).length, "cheatsheets"]];
+    $("home-stats").innerHTML = stats.map(([n, l]) => `<div><b>${n}</b><span>${l}</span></div>`).join("");
+    $("home-cards").innerHTML = SECTIONS.map((s) =>
+      `<button class="start-card" data-view="${s.view}"><span class="ic" aria-hidden="true">${s.icon}</span><span class="t">${s.title}</span><span class="fr">${s.fr}</span><span class="d">${s.text}</span><span class="go">Commencer →</span></button>`).join("");
+    $("home-cards").addEventListener("click", (e) => { const b = e.target.closest(".start-card"); if (b) go(b.dataset.view); });
+    let f = Math.floor(Math.random() * FACTS.length);
+    const showFact = () => { $("fact-text").innerHTML = FACTS[f % FACTS.length]; };
+    $("fact-next").addEventListener("click", () => { f++; showFact(); });
+    showFact();
+  }
 
   /* ---------- notes ---------- */
   function renderWeekList() {
@@ -338,6 +374,7 @@
   renderPicks("verb-weeks", () => nextVerb(), [...new Set(VERBS.map((v) => v.week))]);
   showQuizHistory();
   openWeek(store.get("lastWeek", WEEKS.length ? WEEKS[WEEKS.length - 1].id : 0));
+  renderHome();
   const start = location.hash.replace("#", "").split("/")[0];
   if (["notes", "quiz", "verbs", "conj", "sheets"].includes(start)) show(start);
 })();

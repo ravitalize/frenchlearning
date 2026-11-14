@@ -12,15 +12,16 @@
 </head>
 <body>
   <header class="top">
-    <div class="brand">
+    <a class="brand" href="#home" data-go="home" title="Home">
       <span class="logo" aria-hidden="true"></span>
       <div>
         <h1>Notre cahier de français</h1>
         <p class="tagline">Weekly class notes, quizzes and verb practice</p>
       </div>
-    </div>
+    </a>
     <nav class="tabs" role="tablist">
-      <button role="tab" data-view="notes" class="active">Notes</button>
+      <button role="tab" data-view="home" class="active">Home</button>
+      <button role="tab" data-view="notes">Notes</button>
       <button role="tab" data-view="quiz">Quiz</button>
       <button role="tab" data-view="verbs">Verb drill</button>
       <button role="tab" data-view="conj">Conjugations</button>
@@ -30,7 +31,39 @@
 
   <main>
     <!-- NOTES -->
-    <section id="view-notes" class="view active">
+    <!-- HOME -->
+    <section id="view-home" class="view active">
+      <div class="hero">
+        <p class="kicker">Notre cahier de français · A1–A2</p>
+        <h2 class="hero-title">French wasn't designed by a linguist.<br><span>It was designed by an artist.</span></h2>
+        <p class="hero-sub">That's why it has five accents, letters it never pronounces, and words that melt into each other
+          (<b>vous avez</b> → <i>voo-za-vay</i>). Nobody planned it. It just looks good.
+          <br>Bonne nouvelle&nbsp;: we're figuring it out together, one weekend at a time.</p>
+        <div class="hero-stats" id="home-stats"></div>
+      </div>
+
+      <h2 class="start-q">Par où veux-tu commencer&nbsp;? <span>Where do you want to start?</span></h2>
+      <div class="start-grid" id="home-cards"></div>
+
+      <div class="home-bottom">
+        <div class="funfact paper">
+          <p class="label">Le saviez-vous&nbsp;? <span>(Did you know?)</span></p>
+          <p class="fact" id="fact-text"></p>
+          <button class="btn ghost" id="fact-next">Another one</button>
+        </div>
+        <div class="contact">
+          <p class="label">Made by a classmate</p>
+          <h3>Bonjour, c'est Ravi&nbsp;!</h3>
+          <p>I turn our weekend class notes into this site. Found a mistake, want a new cheatsheet, or just want to practise together&nbsp;?</p>
+          <a class="btn linkedin" href="https://www.linkedin.com/in/ravitalize/" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0Z"/></svg>
+            Contact me on LinkedIn
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="view-notes" class="view">
       <aside class="weeklist" id="weeklist" aria-label="Weeks"></aside>
       <article class="paper" id="note"></article>
     </section>
@@ -132,15 +165,15 @@
 
   <footer class="foot">
     <p>Made from our weekend class notes. Spotted a mistake? <a href="https://github.com/ravitalize/frenchlearning/issues">Open an issue on GitHub</a>.<br>
-    Version 1.2.0 · <a href="https://github.com/ravitalize/frenchlearning/blob/main/CHANGELOG.md">What's new</a></p>
+    Version 1.3.0 · <a href="https://github.com/ravitalize/frenchlearning/blob/main/CHANGELOG.md">What's new</a></p>
   </footer>
 
   <script src="data/notes.js"></script>
   <script src="data/verbs.js"></script>
   <script src="data/verbs-regular.js"></script>
   <script src="phonetics.js"></script>
-  <script src="app.js"></script>
   <script src="data/cheatsheets.js"></script>
+  <script src="app.js"></script>
   <script src="conj.js"></script>
   <script src="sheets.js"></script>
 </body>

@@ -6,6 +6,8 @@ Weekly French class notes (A1–A2), cleaned up into study notes, with a practic
 
 ## What's on the site
 
+- **Home**: start here. Pick a section, read a fun fact, or contact the author on LinkedIn.
+
 - **Notes**: one page per class weekend, with rule boxes, examples, "watch out" traps and corrections.
 - **Quiz**: the practice questions from each week. Write your answer, compare it with the model answer, then mark yourself. Missed questions come back at the end of the round.
 - **Verb drill**: present-tense conjugation practice for the verbs covered so far (être, avoir, aller, venir, -ER, -IR, reflexive verbs...). Accents are checked, and there is an accent keyboard.
