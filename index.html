@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Notre cahier de français · French class notes & practice</title>
+  <meta name="description" content="Weekly French class notes (A1–A2) with rules, examples, quizzes and a conjugation drill.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <div class="brand">
+      <span class="logo" aria-hidden="true"></span>
+      <div>
+        <h1>Notre cahier de français</h1>
+        <p class="tagline">Weekly class notes, quizzes and verb practice</p>
+      </div>
+    </div>
+    <nav class="tabs" role="tablist">
+      <button role="tab" data-view="notes" class="active">Notes</button>
+      <button role="tab" data-view="quiz">Quiz</button>
+      <button role="tab" data-view="verbs">Verb drill</button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- NOTES -->
+    <section id="view-notes" class="view active">
+      <aside class="weeklist" id="weeklist" aria-label="Weeks"></aside>
+      <article class="paper" id="note"></article>
+    </section>
+
+    <!-- QUIZ -->
+    <section id="view-quiz" class="view">
+      <div class="paper narrow">
+        <div id="quiz-setup">
+          <h2>Practice questions</h2>
+          <p>Pick the weeks to practise. Write your answer, check it against the model answer, then mark yourself honestly. Questions you miss come back at the end.</p>
+          <div class="weekpicks" id="quiz-weeks"></div>
+          <div class="row">
+            <label class="check"><input type="checkbox" id="quiz-shuffle" checked> Shuffle</label>
+            <button class="btn primary" id="quiz-start">Start</button>
+          </div>
+          <p class="muted" id="quiz-history"></p>
+        </div>
+        <div id="quiz-run" hidden>
+          <div class="progress"><div class="bar" id="quiz-bar"></div></div>
+          <p class="meta" id="quiz-meta"></p>
+          <p class="question" id="quiz-q"></p>
+          <textarea id="quiz-input" rows="3" placeholder="Write your answer here…" spellcheck="false" autocapitalize="off"></textarea>
+          <div class="accents" data-target="quiz-input"></div>
+          <div class="row">
+            <button class="btn primary" id="quiz-check">Check</button>
+            <button class="btn ghost" id="quiz-quit">Stop</button>
+          </div>
+          <div class="answer" id="quiz-answer" hidden>
+            <p class="label">Model answer</p>
+            <p id="quiz-a"></p>
+            <div class="row">
+              <button class="btn good" id="quiz-right">I got it</button>
+              <button class="btn bad" id="quiz-wrong">Not yet</button>
+            </div>
+          </div>
+        </div>
+        <div id="quiz-done" hidden>
+          <h2>Done!</h2>
+          <p class="score" id="quiz-score"></p>
+          <div id="quiz-review"></div>
+          <div class="row">
+            <button class="btn primary" id="quiz-again">Practise again</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VERBS -->
+    <section id="view-verbs" class="view">
+      <div class="paper narrow">
+        <h2>Conjugation drill (présent)</h2>
+        <p>Type the verb form. Pronouns are optional: "je parle" and "parle" both count.</p>
+        <div class="weekpicks" id="verb-weeks"></div>
+        <div class="drill">
+          <p class="meta"><span id="verb-en"></span></p>
+          <p class="prompt"><span id="verb-subj"></span> <span class="inf" id="verb-inf"></span></p>
+          <input id="verb-input" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="your answer">
+          <div class="accents" data-target="verb-input"></div>
+          <div class="row">
+            <button class="btn primary" id="verb-check">Check</button>
+            <button class="btn ghost" id="verb-skip">Show &amp; skip</button>
+          </div>
+          <p class="feedback" id="verb-feedback" aria-live="polite"></p>
+          <p class="stats"><span>Right: <b id="verb-right">0</b></span><span>Tries: <b id="verb-total">0</b></span><span>Streak: <b id="verb-streak">0</b></span></p>
+        </div>
+        <details class="table-peek">
+          <summary>Show the full table for this verb</summary>
+          <div id="verb-table"></div>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <p>Made from our weekend class notes. Spotted a mistake? <a href="https://github.com/ravitalize/frenchlearning/issues">Open an issue on GitHub</a>.</p>
+  </footer>
+
+  <script src="data/notes.js"></script>
+  <script src="data/verbs.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
