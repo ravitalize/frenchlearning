@@ -7,7 +7,7 @@ window.CHEATSHEETS = [
     title: "Present tense: the 3 verb groups",
     subtitle: "Le présent de l'indicatif · -ER, -IR, -RE and irregular verbs",
     color: "blue",
-    weeks: [2, 3, 6],
+    weeks: [2, 3, 6, 7],
     boxes: [
       { title: "How it works", md: `Every verb = **radical** (stem) + **ending**.
 
@@ -43,12 +43,12 @@ Same: agir, bâtir, grandir, grossir, maigrir, mincir, obéir, punir, réfléchi
       { title: "Group 3: everything else (3e groupe)", md: `Irregular or semi-regular verbs. Learn them one by one.
 
 - **-IR without -iss-**: partir, sortir, dormir, servir, venir, tenir, ouvrir, offrir
-- **-RE**: vendre, attendre, prendre, mettre, faire
-- **-OIR**: avoir, savoir, voir, pouvoir, vouloir
+- **irregular -RE**: prendre, apprendre, comprendre, faire, dire, lire, écrire, connaître
+- **-OIR**: avoir, savoir, pouvoir, vouloir
 - **aller** (ends in -er but irregular) and **être**
 
 > **RULE** Test for group 2 vs 3: say the "-ant" form. finir → finissant (group 2). partir → partant (group 3).` },
-      { title: "-RE verbs (regular pattern)", md: `Remove **-re**, add **-s, -s, —, -ons, -ez, -ent**. (Not covered in class yet.)
+      { title: "-RE verbs (regular pattern)", md: `Remove **-re**, add **-s, -s, —, -ons, -ez, -ent**.
 
 | Subject | Ending | vendre (to sell) |
 | --- | --- | --- |
@@ -59,7 +59,9 @@ Same: agir, bâtir, grandir, grossir, maigrir, mincir, obéir, punir, réfléchi
 | vous | **-ez** | vendez |
 | ils / elles | **-ent** | vendent |
 
-Same: attendre (wait), entendre (hear), répondre (answer), perdre (lose), descendre (go down).` },
+Same: attendre (wait), entendre (hear), répondre (answer), perdre (lose), descendre (go down), rendre (give back), défendre (defend).
+
+> **WATCH OUT** The d is silent in the singular (il vend = "vahⁿ") and heard in the plural (ils vendent = "vahⁿd").` },
       { title: "Group 3 patterns from class", md: `| Pattern | je | nous | ils |
 | --- | --- | --- | --- |
 | partir: drop the consonant in the singular | pars | partons | partent |
@@ -84,7 +86,7 @@ Same: attendre (wait), entendre (hear), répondre (answer), perdre (lose), desce
     title: "-ER verbs that change spelling",
     subtitle: "Verbes en -GER, -CER, -YER, e → è",
     color: "orange",
-    weeks: [3],
+    weeks: [3, 7],
     boxes: [
       { title: "-GER: nous + e", md: `manger, nager, ranger, bouger, changer, voyager, partager, corriger
 
@@ -117,19 +119,23 @@ je commence · nous **commençons** · vous commencez` },
 | nous | achetons | nous levons |
 | vous | achetez | vous levez |
 | ils | ach**è**tent | se l**è**vent |` },
-      { title: "-ELER: double l (appeler)", md: `je m'appe**ll**e · tu t'appe**ll**es · il s'appe**ll**e · ils s'appe**ll**ent
-nous nous appelons · vous vous appelez
+      { title: "-ELER / -ETER: double consonant", md: `**appeler**: je m'appe**ll**e · ils s'appe**ll**ent / nous nous appelons
+**jeter**: je je**tt**e · tu je**tt**es · ils je**tt**ent / nous jetons · vous jetez
 
 > **RULE** Silent ending → double consonant. Heard ending (-ons, -ez) → single.` },
+      { title: "é → è (préférer)", md: `The last é before the ending becomes è when the ending is silent.
+
+je préf**è**re · tu préf**è**res · il préf**è**re · ils préf**è**rent
+nous préférons · vous préférez` },
       { title: "Memory trick: the boot", md: `Draw a boot around je, tu, il, ils (the 4 silent endings). Inside the boot the spelling changes (è, i, ll). Outside the boot (nous, vous) the verb looks like the infinitive.` }
     ]
   },
   {
     id: "irregular",
     title: "Must-know irregular verbs",
-    subtitle: "être, avoir, aller, venir, savoir",
+    subtitle: "être, avoir, aller, venir, savoir, faire, prendre, dire, pouvoir, vouloir",
     color: "red",
-    weeks: [2, 5, 6],
+    weeks: [2, 5, 6, 7],
     boxes: [
       { title: "être (to be)", md: `| | |
 | --- | --- |
@@ -166,6 +172,39 @@ venir **de** + place: Je viens d'Inde.` },
 | il sait | ils savent |
 
 Je sais nager = I know how to swim.` },
+      { title: "faire (to do, to make)", md: `| | |
+| --- | --- |
+| je fais | nous faisons |
+| tu fais | vous **faites** |
+| il fait | ils **font** |
+
+Tu fais quoi ? = What are you doing?` },
+      { title: "prendre (to take)", md: `| | |
+| --- | --- |
+| je prends | nous prenons |
+| tu prends | vous prenez |
+| il prend | ils pre**nn**ent |
+
+Same: **apprendre** (learn), **comprendre** (understand).` },
+      { title: "dire, lire, écrire", md: `| | dire (say) | lire (read) | écrire (write) |
+| --- | --- | --- | --- |
+| je / j' | dis | lis | écris |
+| il | dit | lit | écrit |
+| nous | disons | lisons | écrivons |
+| vous | **dites** | lisez | écrivez |
+| ils | disent | lisent | écrivent |` },
+      { title: "pouvoir, vouloir + infinitive", md: `| | pouvoir (can) | vouloir (want) |
+| --- | --- | --- |
+| je | peux | veux |
+| il | peut | veut |
+| nous | pouvons | voulons |
+| ils | peuvent | veulent |
+
+Je peux **manger**. Il veut **partir**. Polite: **je voudrais** (I would like).` },
+      { title: "savoir or connaître?", md: `- **savoir**: a fact, or how to do something. Je sais nager. Je sais où il habite.
+- **connaître**: a person or a place. Je connais Ravi. Je connais Paris.
+
+je connais · il conna**î**t · nous connaissons · ils connaissent` },
       { title: "Don't mix them up", md: `| | they... | sounds like |
 | --- | --- | --- |
 | ils **ont** | have | eel-zohⁿ |
@@ -221,9 +260,9 @@ Never "Il est un médecin".` }
   {
     id: "questions-negation",
     title: "Questions and negation",
-    subtitle: "Est-ce que, inversion, ne ... pas",
+    subtitle: "Est-ce que, inversion, ne ... pas, si",
     color: "purple",
-    weeks: [4, 5],
+    weeks: [4, 5, 7],
     boxes: [
       { title: "3 ways to ask a yes/no question", md: `| Style | Tu parles anglais. |
 | --- | --- |
@@ -242,16 +281,77 @@ Est-ce que → **est-ce qu'** before a vowel: Est-ce qu'il est là ?` },
 - Il **ne** peut **pas** venir. (around the first verb)
 
 Speaking casually, French people often drop ne: Je parle pas.` },
-      { title: "Answering", md: `- Oui, je parle anglais.
-- Non, je ne parle pas anglais.
-- Answer with the right person: Il a une voiture ? → Oui, **il a** une voiture.` },
-      { title: "Question words", md: `| | |
+      { title: "Answering: oui, non, si", md: `| Question | Yes | No |
+| --- | --- | --- |
+| Tu parles anglais ? | **Oui**, je parle anglais. | Non, je ne parle pas anglais. |
+| Tu **ne** parles **pas** anglais ? | **Si**, je parle anglais. | Non, je ne parle pas anglais. |
+
+**Si** = "yes" to a negative question. Answer with the right person: Il a une voiture ? → Oui, **il a** une voiture.` },
+      { title: "Two verbs: ne ... pas", md: `Only the first verb is conjugated; the second stays in the infinitive. ne ... pas goes around the **first** verb.
+
+- Je **ne** peux **pas** manger **de** gâteau.
+- Il **n'**aime **pas** acheter **les** voitures Volvo.
+
+un / une / des → de still applies; le / la / les stay.` },
+      { title: "Question words", md: `Où ? Qui ? Quand ? Comment ? Pourquoi ? Combien ? Quel ? Qu'est-ce que ?
+
+The full list is on the **Question words** cheatsheet.` }
+    ]
+  },
+  {
+    id: "question-words",
+    title: "Question words",
+    subtitle: "Où, qui, quand, combien, comment, pourquoi, quel, qu'est-ce que",
+    color: "teal",
+    weeks: [7],
+    boxes: [
+      { title: "The words", md: `| | |
 | --- | --- |
-| Qu'est-ce que c'est ? | What is it? |
 | Où ? | Where? |
+| D'où ? | From where? |
+| Qui ? | Who? |
+| À qui / avec qui / pour qui ? | To / with / for whom? |
+| Quand ? | When? |
+| À quelle heure ? | At what time? |
+| Combien ? | How much? |
+| Combien de + noun ? | How many? |
 | Comment ? | How? |
+| Pourquoi ? → Parce que | Why? → Because |
+| Quel / quelle ? | Which? What? |
+| Qu'est-ce que ? | What? |` },
+      { title: "4 ways to place them", md: `| Style | Where do you live? |
+| --- | --- |
+| Casual: at the end | Vous habitez **où** ? |
+| At the start | **Où** vous habitez ? |
+| With est-ce que | **Où est-ce que** vous habitez ? |
+| Formal: inversion | **Où** habitez-vous ? |` },
+      { title: "Quel agrees with the noun", md: `| | m. | f. |
+| --- | --- | --- |
+| sing. | quel livre | quelle robe |
+| plural | quels livres | quelles robes |
+
+All sound the same: **kel**.
+- Quel + noun: **Quelle heure** est-il ?
+- Quel + être: **Quel est** ton nom ? **Quelles sont** tes langues ?
+- Which one? **Lequel / laquelle** (replaces the noun): Laquelle tu achètes ?` },
+      { title: "What? 4 options", md: `- **Qu'est-ce que** + statement: Qu'est-ce que tu manges ?
+- **Que** + inversion: Que veux-tu ?
+- **Quoi** at the end (casual): Tu fais quoi ?
+- **Quel** + noun: Quelle langue tu parles ?
+
+> **WATCH OUT** Qu'est-ce que = what? (answer: a thing). Est-ce que = yes/no?` },
+      { title: "How much, how many", md: `- **Combien** ça coûte ? / Ça coûte **combien** ? → Ça fait 5 euros.
+- **Combien de** langues tu parles ?
+- **Combien d'**enfants avez-vous ? (d' before a vowel)` },
+      { title: "Handy questions", md: `| | |
+| --- | --- |
 | Comment tu t'appelles ? | What's your name? |
-| Y a-t-il ... ? | Is there ...? |` }
+| Comment ça va ? | How are you? |
+| Quelle heure est-il ? | What time is it? |
+| Qu'est-ce que c'est ? | What is it? |
+| Où sont les toilettes ? | Where are the toilets? |
+| Qui est-ce ? | Who is it? |
+| Tu viens d'où ? | Where are you from? |` }
     ]
   },
   {

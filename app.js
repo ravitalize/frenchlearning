@@ -128,11 +128,14 @@
     "The French r lives in the throat. If you know the Urdu <b>ग़</b> in ग़ज़ल, you're already halfway there.",
     "<b>Il y a</b> (there is) literally means \"it there has\". Don't think about it too much. Just say it.",
     "<b>vous avez</b> becomes <i>voo-za-vay</i>: the silent s wakes up only when the next word starts with a vowel. That's liaison.",
+    "French has a secret third answer. To say \"yes\" to a negative question, you don't say oui, you say <b>si</b>: Tu ne parles pas français ? <b>Si !</b>",
+    "<b>Quel, quelle, quels, quelles</b>: four spellings, one sound (<i>kel</i>). The artist strikes again.",
     "Nationalities and days of the week are lowercase in French: <b>il est indien, samedi</b>. Countries keep their capitals: <b>l'Inde</b>."
   ];
   function renderHome() {
     const q = WEEKS.reduce((n, w) => n + w.questions.length, 0);
-    const nVerbs = VERBS.length + ((window.REGULAR_VERBS || {}).er || []).length + ((window.REGULAR_VERBS || {}).ir || []).length;
+    const R = window.REGULAR_VERBS || {};
+    const nVerbs = VERBS.length + (R.er || []).length + (R.ir || []).length + (R.re || []).length;
     const stats = [[WEEKS.length, "weeks of notes"], [q, "quiz questions"], [nVerbs, "verbs"], [(window.CHEATSHEETS || []).length, "cheatsheets"]];
     $("home-stats").innerHTML = stats.map(([n, l]) => `<div><b>${n}</b><span>${l}</span></div>`).join("");
     $("home-cards").innerHTML = SECTIONS.map((s) =>
@@ -375,6 +378,11 @@
   showQuizHistory();
   openWeek(store.get("lastWeek", WEEKS.length ? WEEKS[WEEKS.length - 1].id : 0));
   renderHome();
-  const start = location.hash.replace("#", "").split("/")[0];
-  if (["notes", "quiz", "verbs", "conj", "sheets"].includes(start)) show(start);
+  const VIEWS = ["notes", "quiz", "verbs", "conj", "sheets"];
+  const fromHash = () => {
+    const v = location.hash.replace("#", "").split("/")[0];
+    show(VIEWS.includes(v) ? v : "home");
+  };
+  if (VIEWS.includes(location.hash.replace("#", "").split("/")[0])) fromHash();
+  window.addEventListener("hashchange", fromHash);
 })();

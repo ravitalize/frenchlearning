@@ -224,6 +224,7 @@ textarea:focus, input[type=text]:focus { outline: none; border-color: var(--blue
 .badge.g-irregular { background: #fde8e4; color: #9c3420; }
 .badge.g-reflexive { background: #efe9fd; color: #5a3fb0; }
 .badge.g-er-spelling { background: #fff1cc; color: #7a5a00; }
+.badge.g-re { background: #e0f3f4; color: #0d6670; }
 .badge.list { background: transparent; border: 1px dashed #cfd7e5; }
 .vcard table { font-size: 15px; }
 .vcard td { padding: 5px 8px; }

@@ -1,6 +1,7 @@
 // Regular verbs from the class lists. Their forms and pronunciation are generated
 // by the Conjugations page from the spoken stem (IPA), so only the stem is listed here.
 // er: stem = how je/tu/il/ils sound (no pronoun).   ir: stem = everything before -is.
+// re: [infinitive, meaning, singular stem (je/tu/il, final d silent), plural stem (nous/vous/ils, d heard)].
 window.REGULAR_VERBS = {
   er: [
     ["accepter", "to accept", "ak.sɛpt"], ["adorer", "to adore", "a.dɔʁ"], ["aimer", "to like, to love", "ɛm"],
@@ -29,5 +30,12 @@ window.REGULAR_VERBS = {
     ["obéir", "to obey", "ɔ.be"], ["punir", "to punish", "py.n"], ["réfléchir", "to think, to reflect", "ʁe.fle.ʃ"],
     ["remplir", "to fill", "ʁɑ̃.pl"], ["rougir", "to blush", "ʁu.ʒ"], ["saisir", "to seize", "sɛ.z"],
     ["vieillir", "to grow old", "vjɛ.j"]
+  ],
+  re: [
+    ["défendre", "to defend", "de.fɑ̃", "de.fɑ̃d"], ["descendre", "to go down", "de.sɑ̃", "de.sɑ̃d"],
+    ["entendre", "to hear", "ɑ̃.tɑ̃", "ɑ̃.tɑ̃d"], ["étendre", "to stretch", "e.tɑ̃", "e.tɑ̃d"],
+    ["fondre", "to melt", "fɔ̃", "fɔ̃d"], ["pendre", "to hang", "pɑ̃", "pɑ̃d"],
+    ["perdre", "to lose", "pɛʁ", "pɛʁd"], ["prétendre", "to claim", "pʁe.tɑ̃", "pʁe.tɑ̃d"],
+    ["rendre", "to give back", "ʁɑ̃", "ʁɑ̃d"], ["répandre", "to spread", "ʁe.pɑ̃", "ʁe.pɑ̃d"]
   ]
 };

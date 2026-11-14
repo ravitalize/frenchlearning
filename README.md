@@ -12,7 +12,7 @@ Weekly French class notes (A1–A2), cleaned up into study notes, with a practic
 - **Quiz**: the practice questions from each week. Write your answer, compare it with the model answer, then mark yourself. Missed questions come back at the end of the round.
 - **Verb drill**: present-tense conjugation practice for the verbs covered so far (être, avoir, aller, venir, -ER, -IR, reflexive verbs...). Accents are checked, and there is an accent keyboard.
 
-- **Conjugations**: every verb from class (98 so far) with all its present-tense forms, searchable and filterable by group. Switch on **Pronunciation help** to see how each form sounds, written in **English, Hindi (हिंदी) or Telugu (తెలుగు)** letters. Sounds that don't exist in that language are highlighted and explained.
+- **Conjugations**: every verb from class (123 so far) with all its present-tense forms, searchable and filterable by group. Switch on **Pronunciation help** to see how each form sounds, written in **English, Hindi (हिंदी) or Telugu (తెలుగు)** letters. Sounds that don't exist in that language are highlighted and explained.
 
 - **Cheatsheets**: one-page summaries (verb groups and endings, spelling-change verbs, irregular verbs, articles, questions and negation, places, pronouns and adjectives, numbers, basics). Each prints on one A4 page or saves as a PDF.
 
@@ -28,6 +28,7 @@ It works on phones too. Progress is saved only in your own browser.
 | 4 | Oct 24–25 | 3 ways to ask questions, ne...pas, un / une / des → de, numbers 0–100 |
 | 5 | Oct 31 – Nov 1 | le / la / les, il y a, colour adjectives, countries, avoir, savoir, aller |
 | 6 | Nov 7–8 | Job nouns m/f, irregular adjectives, -IR verbs, venir, à / en / au / du with places |
+| 7 | Nov 14 | Question words (où, qui, quand, combien, quel...), si, two-verb negation, -RE verbs, prendre, faire, dire, lire, écrire, connaître |
 
 ## Adding a new week
 

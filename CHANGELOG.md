@@ -3,6 +3,21 @@
 All notable changes to the notes and the website. Newest first.
 Versions follow `MAJOR.MINOR.PATCH`: a new feature or page bumps MINOR, fixes and small content corrections bump PATCH, and a new week of notes is listed under the release that adds it.
 
+## [1.4.0] - 2026-11-14
+
+### Added
+- **Week 7 (Nov 14)** notes: question words (où, d'où, qui, quand, combien, comment, pourquoi, quel, qu'est-ce que, que, quoi), quel agreement and lequel, answering negative questions with si, negation with two verbs, regular -RE verbs, and the irregular verbs prendre, apprendre, comprendre, faire, dire, lire, écrire, connaître, pouvoir, vouloir. 13 new quiz questions.
+- 25 new verbs on the Conjugations page (123 in total), with pronunciation help, and a new **-RE** filter. Regular -RE verbs are generated from `data/verbs-regular.js`.
+- 15 new verbs in the Verb drill (44 in total), with a Week 7 filter.
+- New **Question words** cheatsheet.
+- Two new fun facts on the homepage.
+
+### Fixed
+- Links that change only the part after # (for example a cheatsheet link opened from the same page, or the browser Back button) now switch to the right tab.
+
+### Changed
+- Cheatsheets updated for Week 7: -RE verbs are no longer marked "not covered yet"; new boxes for faire, prendre, dire/lire/écrire, pouvoir/vouloir, savoir vs connaître, jeter, préférer, "si" and two-verb negation.
+
 ## [1.3.0] - 2026-11-14
 
 ### Added
@@ -59,7 +74,8 @@ Versions follow `MAJOR.MINOR.PATCH`: a new feature or page bumps MINOR, fixes an
 - `build.py` to bundle the notes into `data/notes.js`.
 - README with instructions for adding a new week.
 
-[1.3.0]: https://github.com/ravitalize/frenchlearning/compare/e259d11...main
+[1.4.0]: https://github.com/ravitalize/frenchlearning/compare/6f359bc...main
+[1.3.0]: https://github.com/ravitalize/frenchlearning/compare/e259d11...6f359bc
 [1.2.0]: https://github.com/ravitalize/frenchlearning/compare/9e6d33a...facedde
 [1.1.0]: https://github.com/ravitalize/frenchlearning/compare/b7dada3...9e6d33a
 [1.0.0]: https://github.com/ravitalize/frenchlearning/commit/b7dada3

@@ -2,7 +2,7 @@
 // forms: je, tu, il/elle, nous, vous, ils/elles. "a|b" = both spellings are correct.
 // ipa:   pronunciation (IPA) of [infinitive, je.., tu.., il.., nous.., vous.., ils..], pronoun included.
 // elide: true when je becomes j' (verb starts with a vowel or silent h).
-// group: irregular | er | er-spelling | reflexive | ir | ir-partir | ir-ouvrir
+// group: irregular | er | er-spelling | reflexive | ir | ir-partir | ir-ouvrir | re
 // week:  the class weekend where it was taught.
 window.VERBS = [
   { inf: "être", en: "to be", week: 2, group: "irregular", forms: ["suis", "es", "est", "sommes", "êtes", "sont"],
@@ -63,4 +63,35 @@ window.VERBS = [
     ipa: ["və.niʁ", "ʒə vjɛ̃", "ty vjɛ̃", "il vjɛ̃", "nu və.nɔ̃", "vu və.ne", "il vjɛn"] },
   { inf: "tenir", en: "to hold", week: 6, group: "irregular", forms: ["tiens", "tiens", "tient", "tenons", "tenez", "tiennent"],
     ipa: ["tə.niʁ", "ʒə tjɛ̃", "ty tjɛ̃", "il tjɛ̃", "nu tə.nɔ̃", "vu tə.ne", "il tjɛn"] }
+  ,
+  { inf: "vendre", en: "to sell", week: 7, group: "re", forms: ["vends", "vends", "vend", "vendons", "vendez", "vendent"],
+    ipa: ["vɑ̃dʁ", "ʒə vɑ̃", "ty vɑ̃", "il vɑ̃", "nu vɑ̃.dɔ̃", "vu vɑ̃.de", "il vɑ̃d"] },
+  { inf: "attendre", en: "to wait (for)", week: 7, group: "re", elide: true, forms: ["attends", "attends", "attend", "attendons", "attendez", "attendent"],
+    ipa: ["a.tɑ̃dʁ", "ʒa.tɑ̃", "ty a.tɑ̃", "i.la.tɑ̃", "nu.za.tɑ̃.dɔ̃", "vu.za.tɑ̃.de", "il.za.tɑ̃d"] },
+  { inf: "répondre", en: "to answer", week: 7, group: "re", forms: ["réponds", "réponds", "répond", "répondons", "répondez", "répondent"],
+    ipa: ["ʁe.pɔ̃dʁ", "ʒə ʁe.pɔ̃", "ty ʁe.pɔ̃", "il ʁe.pɔ̃", "nu ʁe.pɔ̃.dɔ̃", "vu ʁe.pɔ̃.de", "il ʁe.pɔ̃d"] },
+  { inf: "prendre", en: "to take", week: 7, group: "irregular", forms: ["prends", "prends", "prend", "prenons", "prenez", "prennent"],
+    ipa: ["pʁɑ̃dʁ", "ʒə pʁɑ̃", "ty pʁɑ̃", "il pʁɑ̃", "nu pʁə.nɔ̃", "vu pʁə.ne", "il pʁɛn"] },
+  { inf: "apprendre", en: "to learn", week: 7, group: "irregular", elide: true, forms: ["apprends", "apprends", "apprend", "apprenons", "apprenez", "apprennent"],
+    ipa: ["a.pʁɑ̃dʁ", "ʒa.pʁɑ̃", "ty a.pʁɑ̃", "i.la.pʁɑ̃", "nu.za.pʁə.nɔ̃", "vu.za.pʁə.ne", "il.za.pʁɛn"] },
+  { inf: "comprendre", en: "to understand", week: 7, group: "irregular", forms: ["comprends", "comprends", "comprend", "comprenons", "comprenez", "comprennent"],
+    ipa: ["kɔ̃.pʁɑ̃dʁ", "ʒə kɔ̃.pʁɑ̃", "ty kɔ̃.pʁɑ̃", "il kɔ̃.pʁɑ̃", "nu kɔ̃.pʁə.nɔ̃", "vu kɔ̃.pʁə.ne", "il kɔ̃.pʁɛn"] },
+  { inf: "faire", en: "to do, to make", week: 7, group: "irregular", forms: ["fais", "fais", "fait", "faisons", "faites", "font"],
+    ipa: ["fɛʁ", "ʒə fɛ", "ty fɛ", "il fɛ", "nu fə.zɔ̃", "vu fɛt", "il fɔ̃"] },
+  { inf: "dire", en: "to say", week: 7, group: "irregular", forms: ["dis", "dis", "dit", "disons", "dites", "disent"],
+    ipa: ["diʁ", "ʒə di", "ty di", "il di", "nu di.zɔ̃", "vu dit", "il diz"] },
+  { inf: "lire", en: "to read", week: 7, group: "irregular", forms: ["lis", "lis", "lit", "lisons", "lisez", "lisent"],
+    ipa: ["liʁ", "ʒə li", "ty li", "il li", "nu li.zɔ̃", "vu li.ze", "il liz"] },
+  { inf: "écrire", en: "to write", week: 7, group: "irregular", elide: true, forms: ["écris", "écris", "écrit", "écrivons", "écrivez", "écrivent"],
+    ipa: ["e.kʁiʁ", "ʒe.kʁi", "ty e.kʁi", "i.le.kʁi", "nu.ze.kʁi.vɔ̃", "vu.ze.kʁi.ve", "il.ze.kʁiv"] },
+  { inf: "connaître", en: "to know (a person, a place)", week: 7, group: "irregular", forms: ["connais", "connais", "connaît", "connaissons", "connaissez", "connaissent"],
+    ipa: ["kɔ.nɛtʁ", "ʒə kɔ.nɛ", "ty kɔ.nɛ", "il kɔ.nɛ", "nu kɔ.nɛ.sɔ̃", "vu kɔ.nɛ.se", "il kɔ.nɛs"] },
+  { inf: "pouvoir", en: "can, to be able to", week: 7, group: "irregular", forms: ["peux", "peux", "peut", "pouvons", "pouvez", "peuvent"],
+    ipa: ["pu.vwaʁ", "ʒə pø", "ty pø", "il pø", "nu pu.vɔ̃", "vu pu.ve", "il pœv"] },
+  { inf: "vouloir", en: "to want", week: 7, group: "irregular", forms: ["veux", "veux", "veut", "voulons", "voulez", "veulent"],
+    ipa: ["vu.lwaʁ", "ʒə vø", "ty vø", "il vø", "nu vu.lɔ̃", "vu vu.le", "il vœl"] },
+  { inf: "jeter", en: "to throw", week: 7, group: "er-spelling", forms: ["jette", "jettes", "jette", "jetons", "jetez", "jettent"],
+    ipa: ["ʒə.te", "ʒə ʒɛt", "ty ʒɛt", "il ʒɛt", "nu ʒə.tɔ̃", "vu ʒə.te", "il ʒɛt"] },
+  { inf: "préférer", en: "to prefer", week: 7, group: "er-spelling", forms: ["préfère", "préfères", "préfère", "préférons", "préférez", "préfèrent"],
+    ipa: ["pʁe.fe.ʁe", "ʒə pʁe.fɛʁ", "ty pʁe.fɛʁ", "il pʁe.fɛʁ", "nu pʁe.fe.ʁɔ̃", "vu pʁe.fe.ʁe", "il pʁe.fɛʁ"] }
 ];

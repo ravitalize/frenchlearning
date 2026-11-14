@@ -319,5 +319,65 @@ window.NOTES = [
     "a": "au (le Luxembourg is masculine)."
    }
   ]
+ },
+ {
+  "id": 7,
+  "file": "notes/week-07.md",
+  "title": "Week 7 (Nov 14): Question words, quel, si, two-verb negation, -RE verbs",
+  "markdown": "# Week 7 (Nov 14): Question words, quel, si, two-verb negation, -RE verbs\n\nThis weekend we learned to ask open questions (où, qui, quand, combien, comment, pourquoi, quel, qu'est-ce que), to answer \"yes\" to a negative question with si, to make negative sentences with two verbs, and the third group of regular verbs (-RE), plus new irregular verbs: prendre, faire, dire, lire, écrire, connaître.\n\n## 1. Question words\n\n| French | English | Example |\n| --- | --- | --- |\n| **Où ?** | Where? | Où est ma voiture ? |\n| **D'où ?** | From where? | D'où vous venez ? → Je viens de RK Math. |\n| **Qui ?** | Who? | Qui est-ce ? → C'est mon frère. |\n| **À qui ?** | To whom? | À qui tu parles ? |\n| **Avec qui ?** | With whom? | Avec qui vous venez ? → Avec mon ami. |\n| **Pour qui ?** | For whom? | Pour qui vous achetez les livres ? |\n| **Quand ?** | When? | Quand part le train ? |\n| **À quelle heure ?** | At what time? | À quelle heure vous mangez ? |\n| **Combien ?** | How much? | Combien ça coûte ? → Ça fait 5 euros. |\n| **Combien de / d' + noun ?** | How many? | Combien de livres tu as ? Combien d'enfants avez-vous ? |\n| **Comment ?** | How? | Comment tu t'appelles ? |\n| **Pourquoi ?** | Why? | Pourquoi tu étudies le français ? → **Parce que** c'est ma passion. |\n| **Quel / Quelle / Quels / Quelles ?** | Which? What? | Quelle heure est-il ? |\n| **Qu'est-ce que ?** | What? | Qu'est-ce que tu manges ? |\n| **Que / Qu' ?** (with inversion) | What? | Que veux-tu ? Qu'écoutes-tu ? |\n| **Quoi ?** (end of a casual question) | What? | Tu fais quoi ? |\n\n> **RULE** A question word can go in 4 places. From most casual to most formal: (1) at the end: **Vous allez où ?** (2) at the start: **Où vous allez ?** (3) with est-ce que: **Où est-ce que vous allez ?** (4) with inversion: **Où allez-vous ?**\n\n> **RULE** Combien alone = how much (Combien ça coûte ?). **Combien de** + noun = how many (Combien de langues tu parles ?). de → **d'** before a vowel: combien d'amis.\n\n> **RULE** **Pourquoi ?** is answered with **parce que** (because), which becomes **parce qu'** before a vowel: Parce qu'il pleut.\n\n> **WATCH OUT** **Qu'est-ce que** asks \"what?\" (answer: a thing). **Est-ce que** asks \"yes or no?\". Qu'est-ce que tu manges ? → Du riz. / Est-ce que tu manges ? → Oui.\n\n> **WATCH OUT** Que and quoi both mean \"what\". **Que / qu'** goes at the start with inversion (Que veux-tu ?). **Quoi** goes at the end of a casual question (Tu veux quoi ?), and after a preposition (Avec quoi ?).\n\n## 2. Quel, quelle, quels, quelles (which / what)\n\n> **RULE** Quel is an adjective, so it agrees with the noun it asks about. All four forms sound the same: [kɛl].\n\n| | Masculine | Feminine |\n| --- | --- | --- |\n| Singular | **quel** livre | **quelle** robe |\n| Plural | **quels** livres | **quelles** robes |\n\n> **RULE** Two ways to use it: (1) **quel + noun**: Quel livre tu lis ? Quelle couleur tu aimes ? Quels sacs vous voulez ? (2) **quel + être**: Quel **est** ton nom ? Quelle **est** ta nationalité ? Quels **sont** tes loisirs ? Quelles **sont** les solutions ?\n\n> **RULE** **Lequel / laquelle / lesquels / lesquelles** = \"which one(s)?\". They **replace** the noun, so the noun disappears: Quel livre je dois lire ? → **Lequel** je dois lire ? Quelle voiture j'achète ? → **Laquelle** j'achète ?\n\n## 3. Negative questions and \"si\"\n\n> **RULE** To say \"yes\" to a **negative** question, use **si**, not oui. To agree with the negative, use **non**.\n\n| Question | Yes | No |\n| --- | --- | --- |\n| Tu parles anglais ? | **Oui**, je parle anglais. | Non, je ne parle pas anglais. |\n| Tu **ne** parles **pas** anglais ? | **Si**, je parle anglais. | Non, je ne parle pas anglais. |\n| Vous n'avez pas de voiture ? | **Si**, j'ai une voiture. | Non, je n'ai pas de voiture. |\n| Ravi n'est pas indien ? | **Si**, il est indien. | Non, il n'est pas indien. |\n\n## 4. Two verbs in one sentence\n\n> **RULE** When two verbs follow each other, only the **first** is conjugated. The second stays in the **infinitive**: Je **peux** manger. Il **aime** acheter. Nous **voulons** partir.\n\n> **RULE** In the negative, **ne ... pas** goes around the **first** (conjugated) verb: Je **ne** peux **pas** manger. Il **n'**aime **pas** acheter.\n\n> **RULE** The \"pas de\" rule still works on the object of the second verb: Tu peux manger **un** gâteau → Tu ne peux pas manger **de** gâteau. le / la / les stay: J'aime acheter **les** voitures Volvo → Je n'aime pas acheter **les** voitures Volvo.\n\n| Positive | Negative |\n| --- | --- |\n| Je peux manger des bonbons. | Je ne peux pas manger **de** bonbons. |\n| Il aime aller au Canada. | Il n'aime pas aller au Canada. |\n| Elle aime manger du riz. | Elle n'aime pas manger **de** riz. |\n| Le livre peut donner beaucoup d'information. | Le livre ne peut pas donner beaucoup d'information. |\n\n> **WATCH OUT** \"Il aime n'acheter pas\" and \"Il n'aime acheter pas\" are wrong. ne...pas never splits the infinitive. (**ne pas** placed together before an infinitive means \"not to do\": Il préfère **ne pas** acheter = he prefers not to buy.)\n\n> **WATCH OUT** With aimer, adorer, détester and préférer, French uses **le / la / les** for things in general: J'aime **le** chocolat, J'aime **les** livres (not \"j'aime un livre\"). In the negative it stays: Je n'aime pas **le** chocolat.\n\npouvoir (can) and vouloir (want) from the examples:\n\n| Subject | pouvoir | vouloir |\n| --- | --- | --- |\n| je | peux | veux |\n| tu | peux | veux |\n| il / elle | peut | veut |\n| nous | pouvons | voulons |\n| vous | pouvez | voulez |\n| ils / elles | peuvent | veulent |\n\nPolite form: **je voudrais** = I would like. Je voudrais apprendre le français.\n\n## 5. Regular -RE verbs\n\n> **RULE** Remove **-re**, then add **-s, -s, (nothing), -ons, -ez, -ent**.\n\n| Subject | Ending | vendre | attendre | répondre |\n| --- | --- | --- | --- | --- |\n| je / j' | -s | vends | j'attends | réponds |\n| tu | -s | vends | attends | réponds |\n| il / elle | (nothing) | vend | attend | répond |\n| nous | -ons | vendons | attendons | répondons |\n| vous | -ez | vendez | attendez | répondez |\n| ils / elles | -ent | vendent | attendent | répondent |\n\nSame pattern: défendre (defend), descendre (go down), entendre (hear), étendre (stretch), fondre (melt), pendre (hang), perdre (lose), prétendre (claim), rendre (give back), répandre (spread).\n\n> **WATCH OUT** The d is silent in the singular (je vends = \"vahⁿ\") and heard in the plural (ils vendent = \"vahⁿd\").\n\n## 6. New irregular verbs\n\n| Subject | prendre (take) | faire (do, make) | dire (say) |\n| --- | --- | --- | --- |\n| je | prends | fais | dis |\n| tu | prends | fais | dis |\n| il / elle | prend | fait | dit |\n| nous | prenons | faisons | disons |\n| vous | prenez | **faites** | **dites** |\n| ils / elles | **prennent** | **font** | disent |\n\n| Subject | lire (read) | écrire (write) | connaître (know) |\n| --- | --- | --- | --- |\n| je / j' | lis | écris | connais |\n| tu | lis | écris | connais |\n| il / elle | lit | écrit | connaît |\n| nous | lisons | écrivons | connaissons |\n| vous | lisez | écrivez | connaissez |\n| ils / elles | lisent | écrivent | connaissent |\n\n> **RULE** **apprendre** (learn) and **comprendre** (understand) follow prendre: j'apprends, nous apprenons, ils apprennent / je comprends, nous comprenons, ils comprennent.\n\n> **RULE** **savoir** vs **connaître**: savoir = know a fact or how to do something (Je sais nager. Je sais où il habite.). **connaître** = know a person or a place (Je connais Ravi. Je connais Paris.).\n\n> **RULE** Two more spelling-change -ER verbs (the \"boot\" from Week 3): **jeter** doubles the t (je je**tt**e, ils je**tt**ent / nous jetons), and **préférer** changes é to è (je préf**è**re, ils préf**è**rent / nous préférons).\n\n## Fixes to the class notes\n\n- Qui fit ça ? → Qui **fait** ça ? (fit is a past tense).\n- l'année prochain → l'année **prochaine**; Quand l'examine est ? → Quand **est l'examen** ?\n- Coûte-ça combien ? is not used. Say **Combien ça coûte ?** or **Ça coûte combien ?**\n- T'appelles-tu comment ? → **Comment t'appelles-tu ?**\n- Comment vous allez ? means **How are you?** To ask how someone travels: **Comment vous venez ?**\n- Lequel livre je dois lire ? → **Quel** livre je dois lire ? or **Lequel** je dois lire ? (lequel replaces the noun).\n- Qu'est-ce que tu études ? → Qu'est-ce que tu **étudies** ? Qu'est-ce que tu parles ? → **Quelle langue** tu parles ?\n- À quelle heure tu dormes ? → tu **dors** (dormir, Week 6).\n- Quel est ta préférence ? → **Quelle** est ta préférence ? (préférence is feminine). Quelles sont tes goutes → tes **goûts**. Quel jouer → Quel **jeu**.\n- Si, je parle anglais = Yes, I **do** speak English.\n- Je ne peux pas manger des bonbons → Je ne peux pas manger **de** bonbons.\n- Parce que, je voudrais d'être calme → Parce que je voudrais **être** calme (no comma, no de). augmenter mon langue français → **améliorer mon français**.\n- Ils aiment jouer le cricket → jouer **au** cricket. J'aime aller mon village → aller **dans** mon village.\n- Comment vous cousinez → **cuisinez**; Qui est votre meusien → **musicien**; Combien de launges → **langues**.\n- jeter is not irregular: it is a spelling-change -ER verb (like appeler).",
+  "questions": [
+   {
+    "q": "Ask \"Where do you live?\" (vous) in 2 ways.",
+    "a": "Où vous habitez ? / Où habitez-vous ? (also: Vous habitez où ? / Où est-ce que vous habitez ?)"
+   },
+   {
+    "q": "Ask \"From where do you come?\" (tu).",
+    "a": "D'où tu viens ? (or Tu viens d'où ?)"
+   },
+   {
+    "q": "Combien or combien de? ___ ça coûte ? ___ langues tu parles ? ___ amis vous avez ?",
+    "a": "Combien / Combien de / Combien d'"
+   },
+   {
+    "q": "Fill with quel, quelle, quels or quelles: ___ heure est-il ? ___ livres tu lis ? ___ est ton nom ? ___ voitures vous aimez ?",
+    "a": "Quelle / Quels / Quel / Quelles"
+   },
+   {
+    "q": "Replace the noun with lequel / laquelle: Quelle robe tu achètes ?",
+    "a": "Laquelle tu achètes ?"
+   },
+   {
+    "q": "Answer YES: Tu ne parles pas anglais ?",
+    "a": "Si, je parle anglais."
+   },
+   {
+    "q": "Answer YES and then NO: Vous n'avez pas de voiture ?",
+    "a": "Si, j'ai une voiture. / Non, je n'ai pas de voiture."
+   },
+   {
+    "q": "Make negative: Je peux manger un gâteau.",
+    "a": "Je ne peux pas manger de gâteau."
+   },
+   {
+    "q": "Make negative: Il aime acheter les voitures Volvo.",
+    "a": "Il n'aime pas acheter les voitures Volvo (les stays)."
+   },
+   {
+    "q": "Conjugate vendre with je, il and ils.",
+    "a": "je vends / il vend / ils vendent"
+   },
+   {
+    "q": "Fill in: Nous ___ (prendre) le train. Vous ___ (faire) du sport. Ils ___ (dire) bonjour.",
+    "a": "prenons / faites / disent"
+   },
+   {
+    "q": "savoir or connaître? Je ___ Paris. Je ___ nager.",
+    "a": "connais / sais"
+   },
+   {
+    "q": "Translate: \"Why are you learning French?\" \"Because I live in France.\"",
+    "a": "Pourquoi tu apprends le français ? / Parce que j'habite en France."
+   }
+  ]
  }
 ];

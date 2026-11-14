@@ -50,7 +50,12 @@
     if (b) open(b.dataset.id);
   });
 
+  const route = () => {
+    const m = location.hash.match(/^#sheets\/(.+)$/);
+    if (m) open(decodeURIComponent(m[1]));
+    else if (location.hash === "#sheets") gallery();
+  };
   gallery();
-  const m = location.hash.match(/^#sheets\/(.+)$/);
-  if (m) open(decodeURIComponent(m[1]));
+  route();
+  window.addEventListener("hashchange", route);
 })();

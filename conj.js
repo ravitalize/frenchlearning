@@ -14,11 +14,12 @@
     reflexive: "Reflexive",
     ir: "-IR (finir)",
     "ir-partir": "-IR (partir)",
-    "ir-ouvrir": "-IR (ouvrir)"
+    "ir-ouvrir": "-IR (ouvrir)",
+    re: "-RE regular"
   };
   const FILTERS = [
     ["all", "All"], ["irregular", "Irregular"], ["er", "-ER"], ["er-spelling", "-ER spelling change"],
-    ["reflexive", "Reflexive"], ["ir*", "-IR"]
+    ["reflexive", "Reflexive"], ["ir*", "-IR"], ["re", "-RE"]
   ];
   const LANGS = [["off", "Off"], ["en", "English"], ["hi", "हिंदी"], ["te", "తెలుగు"]];
 
@@ -56,11 +57,23 @@
     };
   }
 
+  function regularRe([inf, en, s, l]) {
+    const w = inf.slice(0, -2);
+    const v = startsWithVowel(s);
+    return {
+      inf, en, week: 7, group: "re", elide: /^[aeiouyhéèêâîô]/i.test(inf), regular: true,
+      forms: [w + "s", w + "s", w, w + "ons", w + "ez", w + "ent"],
+      ipa: [l + "ʁ", v ? "ʒ" + s : "ʒə " + s, "ty " + s, v ? "il" + s : "il " + s,
+        v ? "nuz" + l + "ɔ̃" : "nu " + l + "ɔ̃", v ? "vuz" + l + "e" : "vu " + l + "e", v ? "ilz" + l : "il " + l]
+    };
+  }
+
   const taught = new Set((window.VERBS || []).map((v) => v.inf));
   const ALL = [
     ...(window.VERBS || []),
     ...((window.REGULAR_VERBS || {}).er || []).map(regularEr),
-    ...((window.REGULAR_VERBS || {}).ir || []).map(regularIr)
+    ...((window.REGULAR_VERBS || {}).ir || []).map(regularIr),
+    ...((window.REGULAR_VERBS || {}).re || []).map(regularRe)
   ].filter((v, i, arr) => arr.findIndex((x) => x.inf === v.inf) === i);
   const sortKey = (inf) => inf.replace(/^s'|^se /, "").normalize("NFD").replace(/[̀-ͯ]/g, "");
   ALL.sort((a, b) => sortKey(a.inf).localeCompare(sortKey(b.inf)));
