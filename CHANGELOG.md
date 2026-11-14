@@ -80,9 +80,9 @@ Versions follow `MAJOR.MINOR.PATCH`: a new feature or page bumps MINOR, fixes an
 - `build.py` to bundle the notes into `data/notes.js`.
 - README with instructions for adding a new week.
 
-[1.4.1]: https://github.com/ravitalize/frenchlearning/compare/9796ae9...main
-[1.4.0]: https://github.com/ravitalize/frenchlearning/compare/6f359bc...9796ae9
-[1.3.0]: https://github.com/ravitalize/frenchlearning/compare/e259d11...6f359bc
-[1.2.0]: https://github.com/ravitalize/frenchlearning/compare/9e6d33a...facedde
-[1.1.0]: https://github.com/ravitalize/frenchlearning/compare/b7dada3...9e6d33a
-[1.0.0]: https://github.com/ravitalize/frenchlearning/commit/b7dada3
+[1.4.1]: https://github.com/ravitalize/frenchlearning/compare/9f9e9c3...main
+[1.4.0]: https://github.com/ravitalize/frenchlearning/compare/0e7d551...9f9e9c3
+[1.3.0]: https://github.com/ravitalize/frenchlearning/compare/61fb085...0e7d551
+[1.2.0]: https://github.com/ravitalize/frenchlearning/compare/68f00af...8c6f591
+[1.1.0]: https://github.com/ravitalize/frenchlearning/compare/15c5ccc...68f00af
+[1.0.0]: https://github.com/ravitalize/frenchlearning/commit/15c5ccc
