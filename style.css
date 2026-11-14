@@ -1,3 +1,5 @@
+[hidden] { display: none !important; }
+
 :root {
   --paper: #fffdf6;
   --desk: #eef1f5;
@@ -180,7 +182,7 @@ textarea:focus, input[type=text]:focus { outline: none; border-color: var(--blue
   #view-notes.active { grid-template-columns: 1fr; gap: 12px; }
   .weeklist { position: static; flex-direction: row; overflow-x: auto; padding-bottom: 4px; }
   .weekbtn { flex: 0 0 auto; }
-  .tabs { width: 100%; justify-content: space-between; }
+  .tabs { width: 100%; justify-content: flex-start; overflow-x: auto; scrollbar-width: none; }
   .tabs button { padding: 7px 10px; font-size: 14px; white-space: nowrap; }
   .weekbtn .tp { display: none; }
   .paper { padding: 20px 16px 28px 30px; background-image:
@@ -230,3 +232,59 @@ textarea:focus, input[type=text]:focus { outline: none; border-color: var(--blue
 .pron { font-size: 16px; color: #24427f; }
 .pron-hi, .pron-te { font-family: "Noto Sans Devanagari", "Noto Sans Telugu", "Nirmala UI", "Kohinoor Devanagari", "Kohinoor Telugu", sans-serif; font-size: 17px; }
 .sp { background: #fff1b8; border-bottom: 2px solid #e6c84f; border-radius: 3px; padding: 0 1px; cursor: help; }
+
+/* Cheatsheets */
+.c-blue { --sc: #2f5bd3; --sc-soft: #e7eefc; }
+.c-red { --sc: #c8463a; --sc-soft: #fbe9e6; }
+.c-green { --sc: #23875a; --sc-soft: #e3f4ea; }
+.c-purple { --sc: #6a4bc4; --sc-soft: #eeeafb; }
+.c-orange { --sc: #c86b12; --sc-soft: #fdf0e1; }
+.c-teal { --sc: #12808a; --sc-soft: #e0f3f4; }
+.sheet-gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 14px; margin-top: 12px; }
+.sheet-tile {
+  position: relative; overflow: hidden; text-align: left; cursor: pointer;
+  display: flex; flex-direction: column; gap: 4px; padding: 18px 16px 14px;
+  background: #fff; border: 1px solid #dfe5ef; border-radius: 12px; font: inherit; color: inherit;
+  transition: transform .12s, box-shadow .12s;
+}
+.sheet-tile:hover { transform: translateY(-2px); box-shadow: 0 8px 20px rgba(31,42,68,.12); }
+.sheet-tile .bar { position: absolute; inset: 0 0 auto 0; height: 6px; background: var(--sc); }
+.sheet-tile .t { font-family: var(--hand); font-size: 26px; font-weight: 700; line-height: 1.1; color: var(--sc); }
+.sheet-tile .s { font-size: 14px; color: var(--ink); }
+.sheet-tile .m { font-size: 12px; color: var(--ink-soft); margin-top: 4px; }
+.sheets-paper:has(#sheet-view:not([hidden])) #sheets-intro { display: none; }
+.sheet-actions { display: flex; justify-content: space-between; gap: 10px; flex-wrap: wrap; margin-bottom: 12px; }
+.sheet-head { background: var(--sc); color: #fff; border-radius: 10px; padding: 12px 16px; margin-bottom: 14px; }
+.sheet-head h2 { color: #fff; margin: 0; font-size: 34px; }
+.sheet-head p { margin: 2px 0 0; opacity: .9; }
+.sheet-cols { columns: 3 300px; column-gap: 14px; }
+.sbox { break-inside: avoid; margin: 0 0 14px; background: #fff; border: 1.5px solid var(--sc); border-radius: 10px; overflow: hidden; }
+.sbox h4 { margin: 0; padding: 6px 10px; background: var(--sc); color: #fff; font-size: 15px; letter-spacing: .01em; }
+.sbody { padding: 6px 10px 8px; font-size: 14px; line-height: 1.45; }
+.sbody p { margin: 6px 0; }
+.sbody ul, .sbody ol { margin: 6px 0; padding-left: 18px; }
+.sbody .tablewrap { margin: 6px 0; }
+.sbody table { font-size: 13.5px; }
+.sbody th { background: var(--sc-soft); }
+.sbody th, .sbody td { padding: 4px 7px; }
+.sbody .box { margin: 6px 0; padding: 6px 8px; font-size: 13.5px; }
+.sbody .box .tag { font-size: 16px; }
+.sbody strong { color: var(--sc); }
+.sheet-foot { color: var(--ink-soft); font-size: 12px; text-align: right; margin: 4px 0 0; }
+
+@media print {
+  @page { size: A4 landscape; margin: 10mm; }
+  .sheet-actions, #sheets-intro { display: none !important; }
+  #view-sheets.active { display: block; }
+  .sheet-cols { columns: 4; column-gap: 8px; }
+  .sbox { border-width: 1px; margin-bottom: 8px; }
+  .sbody { font-size: 9.5px; padding: 4px 7px; }
+  .sbody table { font-size: 9px; }
+  .sbody th, .sbody td { padding: 2px 5px; }
+  .sbox h4 { font-size: 11px; padding: 3px 7px; }
+  .sheet-head h2 { font-size: 22px; }
+  .sbody .box { font-size: 9px; padding: 4px 6px; }
+  .sbody .box .tag { font-size: 12px; }
+  .sheet-head { padding: 6px 10px; margin-bottom: 8px; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .sbox h4, .sbody th { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+}

@@ -68,8 +68,8 @@
         const cells = (r) => r.trim().replace(/^\|/, "").replace(/\|$/, "").split("|").map((c) => c.trim());
         const head = cells(rows[0]);
         const body = rows.slice(1).filter((r) => !/^\s*\|?\s*:?-{3,}/.test(r)).map(cells);
-        html += '<div class="tablewrap"><table><thead><tr>' +
-          head.map((c) => `<th>${inline(c)}</th>`).join("") + "</tr></thead><tbody>" +
+        const headHtml = head.every((c) => !c) ? "" : "<thead><tr>" + head.map((c) => `<th>${inline(c)}</th>`).join("") + "</tr></thead>";
+        html += '<div class="tablewrap"><table>' + headHtml + "<tbody>" +
           body.map((r) => "<tr>" + r.map((c) => `<td>${inline(c)}</td>`).join("") + "</tr>").join("") +
           "</tbody></table></div>";
         continue;
@@ -91,9 +91,14 @@
     return html;
   }
 
+  window.renderMarkdown = renderMarkdown;
+
   /* ---------- view switching ---------- */
   function show(view) {
-    document.querySelectorAll(".tabs button").forEach((b) => b.classList.toggle("active", b.dataset.view === view));
+    document.querySelectorAll(".tabs button").forEach((b) => {
+      b.classList.toggle("active", b.dataset.view === view);
+      if (b.dataset.view === view && window.innerWidth < 860) b.scrollIntoView({ inline: "nearest", block: "nearest" });
+    });
     document.querySelectorAll(".view").forEach((v) => v.classList.toggle("active", v.id === "view-" + view));
     if (view === "verbs" && !drill.current) nextVerb();
     window.scrollTo({ top: 0 });
@@ -333,6 +338,6 @@
   renderPicks("verb-weeks", () => nextVerb(), [...new Set(VERBS.map((v) => v.week))]);
   showQuizHistory();
   openWeek(store.get("lastWeek", WEEKS.length ? WEEKS[WEEKS.length - 1].id : 0));
-  const start = location.hash.replace("#", "");
-  if (["notes", "quiz", "verbs", "conj"].includes(start)) show(start);
+  const start = location.hash.replace("#", "").split("/")[0];
+  if (["notes", "quiz", "verbs", "conj", "sheets"].includes(start)) show(start);
 })();

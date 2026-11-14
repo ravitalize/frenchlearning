@@ -24,6 +24,7 @@
       <button role="tab" data-view="quiz">Quiz</button>
       <button role="tab" data-view="verbs">Verb drill</button>
       <button role="tab" data-view="conj">Conjugations</button>
+      <button role="tab" data-view="sheets">Cheatsheets</button>
     </nav>
   </header>
 
@@ -116,10 +117,22 @@
         <div class="conj-grid" id="conj-grid"></div>
       </div>
     </section>
+    <!-- CHEATSHEETS -->
+    <section id="view-sheets" class="view">
+      <div class="paper sheets-paper">
+        <div id="sheets-intro">
+          <h2>Cheatsheets</h2>
+          <p>One-page summaries of the grammar from class. Open one to revise, or print it (or save it as a PDF) to keep in your notebook.</p>
+        </div>
+        <div class="sheet-gallery" id="sheet-gallery"></div>
+        <div id="sheet-view" hidden></div>
+      </div>
+    </section>
   </main>
 
   <footer class="foot">
-    <p>Made from our weekend class notes. Spotted a mistake? <a href="https://github.com/ravitalize/frenchlearning/issues">Open an issue on GitHub</a>.</p>
+    <p>Made from our weekend class notes. Spotted a mistake? <a href="https://github.com/ravitalize/frenchlearning/issues">Open an issue on GitHub</a>.<br>
+    Version 1.2.0 · <a href="https://github.com/ravitalize/frenchlearning/blob/main/CHANGELOG.md">What's new</a></p>
   </footer>
 
   <script src="data/notes.js"></script>
@@ -127,6 +140,8 @@
   <script src="data/verbs-regular.js"></script>
   <script src="phonetics.js"></script>
   <script src="app.js"></script>
+  <script src="data/cheatsheets.js"></script>
   <script src="conj.js"></script>
+  <script src="sheets.js"></script>
 </body>
 </html>

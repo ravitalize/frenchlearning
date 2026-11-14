@@ -12,6 +12,8 @@ Weekly French class notes (A1–A2), cleaned up into study notes, with a practic
 
 - **Conjugations**: every verb from class (98 so far) with all its present-tense forms, searchable and filterable by group. Switch on **Pronunciation help** to see how each form sounds, written in **English, Hindi (हिंदी) or Telugu (తెలుగు)** letters. Sounds that don't exist in that language are highlighted and explained.
 
+- **Cheatsheets**: one-page summaries (verb groups and endings, spelling-change verbs, irregular verbs, articles, questions and negation, places, pronouns and adjectives, numbers, basics). Each prints on one A4 page or saves as a PDF.
+
 It works on phones too. Progress is saved only in your own browser.
 
 ## Weeks so far
@@ -30,7 +32,11 @@ It works on phones too. Progress is saved only in your own browser.
 1. Add `notes/week-07.md`, following the same layout as the other weeks. It must end with a `## Practice` list and a `## Answers` list with the same number of items.
 2. Run `python3 build.py`. This rebuilds `data/notes.js`, which the site reads.
 3. Optional: add new verbs to `data/verbs.js` (with their IPA pronunciation) or, for regular -ER / -IR verbs, just the spoken stem to `data/verbs-regular.js`. Pronunciation in English, Hindi and Telugu is generated from the IPA by `phonetics.js`.
-4. Commit and push. GitHub Pages updates in a minute or two.
+4. Optional: add or update a cheatsheet in `data/cheatsheets.js`.
+5. Add an entry to `CHANGELOG.md` and bump the version in the footer of `index.html`.
+6. Commit and push. GitHub Pages updates in a minute or two.
+
+See [CHANGELOG.md](CHANGELOG.md) for the history of changes.
 
 ## Run it locally
 
