@@ -45,6 +45,6 @@ Versions follow `MAJOR.MINOR.PATCH`: a new feature or page bumps MINOR, fixes an
 - `build.py` to bundle the notes into `data/notes.js`.
 - README with instructions for adding a new week.
 
-[1.2.0]: https://github.com/ravitalize/frenchlearning/compare/v1.1.0...v1.2.0
-[1.1.0]: https://github.com/ravitalize/frenchlearning/compare/v1.0.0...v1.1.0
-[1.0.0]: https://github.com/ravitalize/frenchlearning/releases/tag/v1.0.0
+[1.2.0]: https://github.com/ravitalize/frenchlearning/compare/9e6d33a...facedde
+[1.1.0]: https://github.com/ravitalize/frenchlearning/compare/b7dada3...9e6d33a
+[1.0.0]: https://github.com/ravitalize/frenchlearning/commit/b7dada3
